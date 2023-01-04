@@ -11,7 +11,10 @@ const Header = () => {
         <div>
             <Logo img={logo}></Logo>
             <Text>
-
+                <a href='/'>Accueil</a>
+                <a href='/Formations'>Formations</a>
+                <a href='/'>Quizz</a>
+                <a href='/'>Connexion</a>
             </Text>
         </div>
     );
@@ -20,5 +23,13 @@ const Header = () => {
 export default Header;
 
 const Text=styled.div`
-
+    padding-top:30px;
+    position:absolute;
+    right:0;
+    top:0;
+    a{
+        color:#344055;
+        padding-right:100px;
+        text-decoration:none;
+    }
 `
