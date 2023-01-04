@@ -12,7 +12,7 @@ const Header = () => {
             <Logo img={logo}></Logo>
             <Text>
                 <a href='/'>Accueil</a>
-                <a href='/Formations'>Formations</a>
+                <a href='/formations'>Formations</a>
                 <a href='/'>Quizz</a>
                 <a href='/'>Connexion</a>
             </Text>

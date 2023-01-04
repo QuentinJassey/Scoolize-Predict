@@ -3,6 +3,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import Formations from "./pages/Formations";
+import Details from "./pages/Details";
 import GlobalStyle from './GlobalStyle.js'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/formations" element={<Formations />} />
+        <Route path="/details" element={<Details />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
 
