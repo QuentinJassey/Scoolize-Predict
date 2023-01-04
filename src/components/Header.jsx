@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../img/logo.png'
+import styled from 'styled-components';
 
 import Logo from './Logo.Header.jsx'
 import {StyledLogo} from './Logo.Header.jsx'
@@ -10,7 +11,7 @@ const Header = () => {
         <div>
             <Logo img={logo}></Logo>
             <Text>
-                
+
             </Text>
         </div>
     );
